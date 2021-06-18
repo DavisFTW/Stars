@@ -4,4 +4,5 @@ def star(n : int ):
     for i in range(n, -2, -1):
         print(" " * (n - i), "*" * (i * 2 + 1))
 
-star(6)
+uInput = int(input("number: "))
+star(uInput)
